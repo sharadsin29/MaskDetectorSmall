@@ -1,1 +1,1 @@
-web: voila --theme=dark --port=$PORT --no-browser --enable_nbextensions=True --show_tracebacks=True MaskDetectorSmall.ipynb
+web: voila --theme=dark --port=$PORT --no-browser --enable_nbextensions=True --show_tracebacks=True --MappingKernelManager.cull_interval=60 --MappingKernelManager.cull_idle_timeout=120 MaskDetectorSmall.ipynb
